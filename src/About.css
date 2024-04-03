@@ -1,0 +1,75 @@
+/* rgba(2, 214, 251,0.8) */
+
+.about1{
+    display: flex;
+    justify-content: center;
+}
+
+.miniabout1{
+    width: 65%;
+    padding: 20px;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.miniabout1 h2{
+    color: white;
+    margin-top: 7px;
+}
+
+.miniabout1 .p1{
+    color: gray;
+    margin-top: 10px;
+}
+
+.miniabout1 .p2{
+    color: rgba(255,255,255,0.9);
+    margin-top: 20px;
+}
+
+.miniabout1 .p3{
+    color: rgba(2, 214, 251,0.8);
+    margin-top: 20px;
+}
+
+.miniabout1 h2:hover{
+    text-decoration: underline;
+}
+
+.miniabout1 .p3:hover{
+    text-decoration: underline;
+}
+
+.miniabout1:hover{
+    cursor: pointer;
+}
+
+
+/* ABOUT2 */
+.largeabout2{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.about2{
+    width:65%;
+}
+.miniabout2{
+    display: flex;
+    color: rgba(2, 214, 251,0.8);
+}
+
+.miniabout2 p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.about2 h1{
+    color: white;
+}
+
+.about .pp{
+    color: rgba(255,255,255,0.9);
+    margin-top: 20px;
+}

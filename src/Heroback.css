@@ -1,0 +1,141 @@
+/* HEROBACK */
+.heroback{
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:50px;
+    background-color: rgba(255,255,255,0.1);
+    height: 55px;
+  }
+  
+  .iconreact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin-left: 30px;
+  }
+
+  .iconreact i{
+    font-size: 30px;
+    color: #02D6FB;
+    animation: rotate 3s linear infinite;
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .iconreact h3{
+    color: #02D6FB;
+  }
+  
+  .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:35px;
+  }
+
+  .navbar a{
+    text-decoration: none ;
+    color: #02D6FB;
+  }
+  
+  .navbar a:focus{
+    text-decoration: underline;
+  }
+  
+  .navbar a:hover{
+    text-decoration: underline;
+  }
+
+  .menuicon{
+    display: none;
+    position: relative;
+  }
+
+  .menuicon:hover .menuhover{
+    cursor: pointer;
+    display:block;
+  }
+
+.menuhover{
+  display: none;
+  position: absolute;
+  top:30px;
+  left:-50px;
+  background-color: rgba(255,255,255,0.3);
+}
+
+.menulinks {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  color: #333;
+  font-size:20px;
+  color: #02D6FB;
+}
+
+.menulinks:hover {
+  background-color: #969393f2;
+}
+
+@media screen and (max-width:550px) {
+  .navbar{
+    display: none;
+  }
+
+  .menuicon{
+    display: block;
+    font-size: 25px;
+    color: #02D6FB ;
+    margin-right: 20px;
+  }
+}
+
+
+/* Profile */
+.profile{
+  position: relative;
+  margin-right: 25px;
+  border: 1px solid rgba(2, 214, 251,0.9);
+  width:25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile .profilematter{
+     display: none;
+     position: absolute;
+     right: 3px;
+     width: 90px;
+     top: 25px ;
+     background-color: rgba(255,255,255,0.2);
+     
+}
+
+.profilematter:hover{
+  cursor: pointer;
+}
+
+.profilematter h3{
+  color:rgba(2, 214, 251,0.9);
+  text-align: center;
+}
+.profile:hover .profilematter{
+  display: block;
+}
+
+.profileicon{
+  color: rgba(2, 214, 251,0.9);
+}

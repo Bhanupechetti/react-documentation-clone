@@ -1,0 +1,391 @@
+.homematter{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #02D6FB;
+}
+
+.homematter .reacticon{
+    font-size: 100px;
+    color: #02D6FB;
+}
+
+.homematter .h1react{
+    font-size: 40px;
+    color: rgba(255,255,255,0.9);
+}
+
+.homematter h3{
+    font-size: 32px; 
+    text-align: center;
+    color: rgba(255,255,255,0.9);
+    margin-top: 10px;
+}
+.btns{
+    display: flex;
+    gap:20px;
+}
+.btns .btn1{
+    margin-top: 30px;
+    height: 50px;
+    width:150px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:rgba(2, 214, 251,0.9);
+    color: white;
+    border: 0px;
+}
+
+.btn1:hover{
+    cursor: pointer;
+    background-color:rgba(2, 214, 251,0.7);
+}
+
+.btns .btn2{
+    margin-top: 30px;
+    height: 50px;
+    width:160px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: lighter;
+    background-color:rgba(255,255,255,0.1) ;
+    border:1px solid rgba(255,255,255,0.2);
+    color: white; 
+}
+
+.btn2:hover{
+    cursor: pointer;
+    background-color:rgba(255,255,255,0.2) ;
+}
+
+@media screen and (max-width: 640px){
+    .btns{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .btns .btn1{
+         width:90%;
+        
+    }
+    .btns .btn2{
+        width:90%;
+        margin-top: 5px;
+    }
+    .homematter h3{
+        font-size: 25px;
+    }
+}
+
+/* HEROBACK1 */
+.herobck1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    /* background-color: rgb(30, 30, 30); */
+}
+
+.herobck1 h2{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+.herobck1 p{
+    /* text-align: center; */
+    font-size: 20px;
+    margin-top: 30px;
+    width: 80%;
+}
+.phero{
+    margin-bottom: 70px;
+}
+.herobck1 span{
+     background-color: rgba(255,255,255,0.2);
+     border-radius: 7px;
+}
+
+.imgherobck1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px;
+    margin-top: 40px;
+}
+
+.imgherobck1 img{
+    width:500px;
+}
+
+@media screen and (min-width:451px)and (max-width:540px) {
+    .imgherobck1 img{
+        width:400px;
+    } 
+    .herobck1 h2{
+        font-size: 30px;
+    }
+    .herobck1 p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .imgherobck1 img{
+        width:250px;
+    } 
+}
+
+/* HEROBACK2 */
+.heroback2{
+    display: flex;
+}
+
+.div1{
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+}
+
+
+.div1 p{
+    width:70%;
+    margin-top: 30px;
+}
+
+.minidiv1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10px;
+    border: 1px solid rgba(255,255,255,0.2);
+    height: 35px;
+    border-radius: 25px;
+    padding-left: 10px;
+    margin-top: 40px;
+    width:250px;
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.minidiv2_1{
+    display: flex;
+}
+
+.minidiv2_2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.child{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:40px;
+    width:230px;
+    border: 1px solid rgba(255,255,255,0.3);
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.flask {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10px;
+    color: gray;
+    
+}
+
+.child h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1290px) {
+    .heroback2{
+         flex-wrap: wrap;
+    }
+}
+
+@media screen  and (max-width:600px){
+    .child{
+        width: 85%;
+        margin-left:10px;
+    }
+}
+
+/* HEROBACK3 */
+.heroback3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.heroback3 p{
+    font-size: 20px;
+    text-align: center;
+    width: 60%;
+    margin-top: 30px;
+}
+
+.heroback3 img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+@media screen  and (max-width:860px){
+   .heroback3{
+    align-items: flex-start;
+    margin-left: 20px;
+   }
+   .heroback3 p{
+        text-align: start;
+        width: 90%;
+        font-size: 16px;
+   }
+}
+
+
+/* HEROBACK4 */
+.heroback4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.heroback4 h1{
+    font-size: 30px;
+    color: rgba(255,255,255,0.9);
+    text-align: center;
+}
+
+.heroback4 button{
+    margin-top: 25px;
+    height: 45px;
+    width:150px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:rgba(2, 214, 251,0.8);
+    color: white;
+    border: 0px;
+}
+
+.heroback4 button:hover{
+    cursor: pointer;
+    background-color:rgba(2, 214, 251,0.7);
+}
+
+
+/* HEROBACK5 */
+.heroback5{
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.minihr1{
+    margin-left: 30px;
+}
+.meta{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+
+ .heroback5 .minihr2{
+    display: flex;
+    width:80%;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    gap:15px; 
+    margin-bottom: 50px;
+}
+
+.minihalf{
+    width:140px;
+}
+
+@media screen and (max-width:988px) {
+    .heroback5 .minihr2{
+        width:100%;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    #minihalf1{
+        margin-left: 30px;
+    }
+}
+
+@media  screen and (min-width:505px) and (max-width:650px) {
+    #minihalf4{
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width:346px)and (max-width:504px) {
+    #minihalf3{
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    #minihalf4{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:345px){
+    #minihalf2{
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    #minihalf3{
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    #minihalf4{
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+}
+
+.minihalf p{
+  font-size: 14px;
+  color: grey;
+}
+
+.minihalf p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#minihalf4 .icons{
+    display: flex;
+    gap:5px;
+    margin-top: 10px;
+}
+
+.fxg:hover{
+   cursor: pointer;
+   color: #02D6FB;
+}
+
